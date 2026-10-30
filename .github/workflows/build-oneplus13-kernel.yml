@@ -289,7 +289,7 @@ jobs:
           sudo apt-get -o Acquire::Retries=3 update -qq
           sudo DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
             aria2 git curl ca-certificates build-essential clang lld flex bison \
-            libelf-dev libssl-dev libncurses-dev zlib1g-dev liblz4-tool \
+            libelf-dev libssl-dev libncurses-dev zlib1g-dev lz4 \
             libxml2-utils rsync unzip dwarves file python3 python-is-python3 python3-requests \
             ccache jq bc dos2unix kmod libdw-dev elfutils pigz zstd
           sudo apt-get clean
